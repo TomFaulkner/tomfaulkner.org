@@ -62,6 +62,9 @@ const IndexPage = ({ data }) => {
                 </Link>
                 <small className="d-block text-info">
                   <i>Posted on {post.node.frontmatter.date}</i>
+                  {post.node.frontmatter.dateComment
+                    ? ` - ${post.node.frontmatter.dateComment}`
+                    : ""}
                 </small>
                 <p className="mt-3 d-inline">{post.node.excerpt}</p>
                 <Link to={post.node.fields.slug} className="text-primary">
@@ -112,6 +115,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             tags
+            dateComment
           }
           fields {
             slug
