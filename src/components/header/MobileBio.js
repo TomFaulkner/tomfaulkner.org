@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./header.css";
-import willjw3 from "../../images/willjw3.jpg";
+import tomf from "../../images/tomf.jpg";
 
 const MobileBio = props => {
   return (
     <div className="mobile-bio-main">
       <img
-        src={willjw3}
+        src={tomf}
         className="ml-4 mt-2"
         style={{
           maxWidth: `75px`,

@@ -53,8 +53,8 @@ const Layout = ({ children }) => {
               <hr />
               <p className="d-inline">
                 © {new Date().getFullYear()}{" "}
-                <a className="text-info" href="https://willjw3.github.io/">
-                  willjw3
+                <a className="text-info" href="https://tomfaulkner.org/">
+                  Tom Faulkner
                 </a>
                 , All Rights Reserved.
               </p>
