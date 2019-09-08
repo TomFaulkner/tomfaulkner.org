@@ -1,23 +1,24 @@
-"use strict"
+"use strict";
 
 module.exports = {
-  url: "https://developer-diary.netlify.com",
+  url: "https://tomfaulkner.org",
   title: "Developer Diary",
-  tagline: "Autodidact developer and sometimes hoop-jumper",
-  copyright: "© 2019 willjw3, All rights reserved",
+  tagline: "Insert something funny yet relevant here",
+  copyright: "© 2019 Tom Faulkner, All rights reserved",
   author: {
-    name: "WILL JAY",
-    bio: "Self-taught web developer and whisky aficionado",
+    name: "Tom Faulkner",
+    bio:
+      "I write code; I solve problems; I solve problems with code; I sip good bourbon and craft beer.",
     contacts: {
-      linkedin: "https://www.linkedin.com/in/will-ward-65234a170/",
-      github: "https://github.com/willjw3",
-      stackoverflow:
-        "https://stackoverflow.com/users/10262432/will-ward?tab=profile",
-      freecodecamp: "https://www.freecodecamp.org/willjw3",
-      twitter: "https://twitter.com/willjw3",
+      linkedin: "https://www.linkedin.com/in/tomfaulkner1/",
+      github: "https://github.com/tomfaulkner",
+      stackoverflow: "",
+      freecodecamp: "",
+      twitter: "https://twitter.com/tomf80",
     },
   },
   labels: [
+    // https://react-icons.netlify.com
     {
       tag: "react",
       tech: "React",
@@ -109,5 +110,12 @@ module.exports = {
       size: 20,
       color: "deepskyblue",
     },
+    {
+      tag: "meta",
+      tech: "Meta",
+      name: "IoIosMore",
+      size: 20,
+      color: "deepskyblue",
+    },
   ],
-}
+};
