@@ -65,7 +65,8 @@ Rotting: 6
 This demonstrates a simple for loop with continue and break along with conditionals (if) and the modulus operator to continue iteration when it is proven that the guess is incorrect without doing unnecessary checks. Finally, once the first possible answer is proven the loop breaks rather than iterating further.
 
 Is it better than doing this as an algebraic equation? I don't know, but I think it presents an opportunity for students to think about the logic in another manner and to practice their problem solving skills.
-Answer
+
+## Answer
 
 RAY: You could do it simply by trial and error. Just keep trying numbers.
 

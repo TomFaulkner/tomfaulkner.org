@@ -117,5 +117,12 @@ module.exports = {
       size: 20,
       color: "deepskyblue",
     },
+    {
+      tag: "education",
+      tech: "Education",
+      name: "IoIosBook",
+      size: 20,
+      color: "deepskyblue",
+    },
   ],
 };
