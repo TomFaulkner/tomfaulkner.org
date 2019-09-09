@@ -3,7 +3,7 @@ title: "Gone Fishing"
 tags: ["python", "education"]
 published: true
 date: "2019-09-08"
-dateComment: ""
+dateComment: "53rd anniversary of Star Trek"
 ---
 
 This is republished from an Jupyter Notebook I published on a [GitHub Gist](https://gist.github.com/TomFaulkner/eb57a5f468b56abb8241e3fe27e215e4).
