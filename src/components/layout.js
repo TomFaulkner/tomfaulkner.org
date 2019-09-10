@@ -67,6 +67,9 @@ const Layout = ({ children }) => {
                     Gatsby
                   </a>
                 </i>
+                <br />
+                <a className="text-info" href="https://www.gatsbyjs.org/starters/willjw3/gatsby-starter-developer-diary/">Developer Diary Starter</a>,
+                <a className="text-info" href="https://github.com/TomFaulkner/tomfaulkner.org">Blog Source</a>
               </p>
             </footer>
           </div>
