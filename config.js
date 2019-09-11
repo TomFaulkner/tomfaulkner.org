@@ -124,5 +124,12 @@ module.exports = {
       size: 20,
       color: "deepskyblue",
     },
+    {
+      tag: "automation",
+      tech: "Automation",
+      name: "FiSettings",
+      size: 20,
+      color: "grey",
+    },
   ],
 };

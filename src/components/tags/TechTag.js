@@ -2,6 +2,7 @@ import React from "react";
 import * as FontAwesome from "react-icons/fa";
 import * as Devicons from "react-icons/di";
 import * as Ionicons from "react-icons/io";
+import * as FeatherIcons from "react-icons/fi";
 
 import "./tags.css";
 import { Link } from "gatsby";
@@ -12,6 +13,7 @@ const TechTag = props => {
     Fa: FontAwesome,
     Di: Devicons,
     Io: Ionicons,
+    Fi: FeatherIcons,
   };
 
   let icon = "";
