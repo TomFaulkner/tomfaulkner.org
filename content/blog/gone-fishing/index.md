@@ -6,7 +6,7 @@ date: "2019-09-08"
 dateComment: "53rd anniversary of Star Trek"
 ---
 
-This is republished from an Jupyter Notebook I published on a [GitHub Gist](https://gist.github.com/TomFaulkner/eb57a5f468b56abb8241e3fe27e215e4).
+This is republished from a Jupyter Notebook I published on a [GitHub Gist](https://gist.github.com/TomFaulkner/eb57a5f468b56abb8241e3fe27e215e4).
 
 After getting the book ["Math Adventures with Python"](https://nostarch.com/mathadventures) I've been more interested in solving math problems in Python and how one might go about it at a junior high or high school level. I teach neither Math or Programming, but I am a programmer. Today I heard the riddle on a Car Talk re-run and decided to solve it using Python.
 
