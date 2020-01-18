@@ -71,9 +71,7 @@ I didn't take the additional steps to secure my one container local registry. It
 }
 ```
 
-### Pulling the Image
-
-Trying it out.
+### Trying it out.
 
 `docker pull 192.168.1.21:5000/arm-maria`
 
