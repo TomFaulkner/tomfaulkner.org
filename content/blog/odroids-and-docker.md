@@ -10,7 +10,7 @@ While looking to order a Single Board Computer (SBC) to use as a pfSense router 
 
 For now I am just playing with it, trying out [OpenMediaVault](https://openmediavault.org) and setting up [NextCloud](https://nextcloud.com). The latter is where I ran into difficulties. NextCloud, at least as I had it configured when I set it up in a compose file to take a look at it, uses MariaDB. The official Maria docker images include an image for Arm8, but not for Arm7, Arm64, or Armhf.
 
-I found a few rather dated Dockerfiles, that weren't being pushed to DockerHub any longer. One that looked promising required cross-building, I believe necessarily on amd64. Not wanting to build it, push the build to DockerHub, then pull it back down, on a friend's suggestion, and the desire to learn something new, I decided to go with a local [Docker Registry](https://docs.docker.com/registry/). My notes as to how this is setup is as follows. (I also have it in git, because who wants to do this twice?)
+I found a few rather dated Dockerfiles, that weren't being pushed to DockerHub any longer. One that looked promising required cross-building, I believe necessarily on amd64. Not wanting to build it, push the build to DockerHub, then pull it back down, on a [friend's](https://github.com/nathan-osman/) suggestion, and the desire to learn something new, I decided to go with a local [Docker Registry](https://docs.docker.com/registry/). My notes as to how this is setup is as follows. (I also have it in git, because who wants to do this twice?)
 
 
 # Files
